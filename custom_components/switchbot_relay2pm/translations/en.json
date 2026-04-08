@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SwitchBot API Credentials",
+        "description": "Enter your SwitchBot API Token and Secret Key. Find them in the SwitchBot app under Profile → Developer Options.",
+        "data": {
+          "token": "API Token",
+          "secret": "Secret Key"
+        }
+      },
+      "select_device": {
+        "title": "Select Device",
+        "description": "Select the Relay Switch 2PM you want to add.",
+        "data": {
+          "device_id": "Device"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials. Check your Token and Secret Key.",
+      "cannot_connect": "Failed to connect to the SwitchBot API.",
+      "no_devices_found": "No Relay Switch 2PM found in this account.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}

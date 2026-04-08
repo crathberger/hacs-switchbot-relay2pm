@@ -1,0 +1,11 @@
+{
+  "domain": "switchbot_relay2pm",
+  "name": "SwitchBot Relay Switch 2PM",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/OpenWonderLabs/SwitchBotAPI",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling"
+}
